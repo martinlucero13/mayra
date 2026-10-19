@@ -407,7 +407,7 @@ function loadingScreen(theme, mensajes, total = 3600){
   };
 }
 
-const fechaHoy = () => new Date().toLocaleDateString('es-AR', {day:'numeric', month:'long', year:'numeric'});
+const fechaHoy = () => new Date(2026, 9, 18).toLocaleDateString('es-AR', {day:'numeric', month:'long', year:'numeric'});
 
 /* Pad de firma reutilizable (se usa para las dos firmas) */
 function crearPadFirma(canvas, onChange){
